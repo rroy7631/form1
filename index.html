@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+ <style>
+*{
+    color: rgb(0, 0, 0);
+}
+.divform{
+    /* background-color: burlywood; */
+    background-image: url(https://images.unsplash.com/photo-1604995152589-24df579d04ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=593&q=80);
+
+    
+    width: 313px;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 50px 0px 0px 50px;
+}
+.firstname, .lastname{
+    margin-left: 30px;
+}
+.password{
+    margin-left: 37px;
+}
+#male{
+    margin-top: 24px;
+    margin-left: 30px;
+}
+.submit{
+    padding: 8px 21px 9px 21px;
+    margin-left: 117px;
+    border-radius: 14px
+
+}
+
+
+
+
+
+ </style>
+
+
+
+</head>
+<body>
+    <div class="divform">
+    <form>
+     First Name  <input type="text" placeholder="First Name" class="firstname" required> <br> <br>
+     Last Name   <input type="text" placeholder="last Name" class="lastname">  <br>  <br>
+     Password    <input type="text" placeholder="Password" class="password" required> <br><br>
+     <input type="radio" id="male" name="gender" value="male"> Male 
+
+     <input type="radio" id="female" name="gender" value="female"> Female
+     
+     <input type="radio" id="other" name="gender" value="other"> Other <br><br><br>
+     
+     <input type="checkbox"> I have a bike <br>
+     <input type="checkbox"> I have a car<br>
+     <input type="checkbox"> I have a boat<br><br>
+       
+         <input type="submit" value="Submit" class="submit">
+     
+    
+    </form>
+
+  
+</div>
+</body>
+</html>
